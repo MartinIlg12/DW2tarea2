@@ -1,0 +1,111 @@
+body {
+	margin: 0;  
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+.home {
+    background-image: url(https://img.freepik.com/vector-gratis/fondo-futbol-degradado-dinamico_23-2149007789.jpg?size=626&ext=jpg&ga=GA1.1.34264412.1698969600&semt=sph);
+	background-size: cover;
+	height: 100vh;
+}
+nav {
+	text-align: center;
+	padding-top: 2%;
+}
+.logo {
+	display: inline-block;
+	color: #5f0101;
+	text-transform: capitalize;
+	font-weight: bold;
+	font-size: 40px;
+	font-family: 'Cookie', cursive;
+}
+nav a {
+	text-decoration: none;
+	color: #626063;
+	font-size: 18px;
+	text-transform: uppercase;
+	margin: 0 25px;
+	letter-spacing: 2px;
+	font-weight: 700;
+}
+.banner-area {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	width: 100%;
+}
+
+
+
+.banner-area h3 {
+	font-size: 80px;
+	text-transform: capitalize;
+	color: #080808;
+	margin: 0 0 40px 0;
+	font-family: titan;
+	line-height: 1;
+}
+.banner-area h3 span{
+	color: #fdfdf8;
+}
+.banner-area h2 {
+	margin: 0;
+	padding: 0;
+	color: #a80505;
+	font-size: 2em;
+	line-height: 0;
+}
+.banner-area h2 span {
+	color: #028a98;
+}
+.banner-area a {
+	display: inline-block;
+	margin-top: 50px;
+	text-decoration: none;
+	color: #fff;
+	background: #01f135;
+	padding: 10px 30px;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+@media (max-width:800px) {
+	nav a {
+		font-size: 16px;
+		margin: 0 10px;
+	}
+	.banner-area h2 {
+		font-size: 1.7em;
+	}
+	.banner-area h3 {
+		margin: 0 0 20px 0;
+		font-size: 70px;
+	}
+	.home {
+		background-position: 58%;
+	}
+}
+@media (max-width: 767px){
+	.banner-area h3 {
+		font-size: 35px;
+	}
+	.banner-area h2 {
+		font-size: 1em;
+	}
+	.banner-area a {
+		font-size: 14px;
+		margin-top: 30px;
+	}
+	nav a {
+		font-size: 8px;
+		margin: 0 5px;
+	}
+	.logo {
+		font-size: 30px;
+	}
+	.home {
+		background-position: 60%;
+	}
+}  

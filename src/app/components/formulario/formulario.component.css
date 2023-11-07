@@ -1,0 +1,47 @@
+#container1 {
+    background-image: url(https://us.123rf.com/450wm/pboonrit/pboonrit1708/pboonrit170800039/84206082-conceito-do-futebol-futebol-bola-de-futebol-botas-velhas-do-futebol-jogo-azul-do-futebol-t.jpg?ver=6);
+    position: static;
+}
+
+#colorDiv {
+    background-color: #074adb;
+    height: 500px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 15px;
+}
+
+form {
+    display: block;
+}
+
+.form-group label {
+    text-align: center;
+}
+
+#submitBtn {
+
+    display: block;
+    border-radius: 5px;
+    width: 80px;
+}
+
+.large {
+    width: 100%;
+}
+
+#frgPass {
+    color: #d9d9d9;
+}
+
+.page-header {
+    text-align: center;
+}
+
+.footer {
+    text-align: center;
+}
+
+.footer a {
+    color: #030303;
+}

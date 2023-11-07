@@ -1,0 +1,39 @@
+<div class="container" id="container1" style="background-color: black;">
+    <div class="col-md-7 col-md-offset-4" id="colorDiv">
+        <div class="col-md-7 col-md-offset-4" id="innerDiv">
+            <form>
+                <div class="form-group">
+                    <label for="userInput">INGRESE EL NÚMERO DE PARTIDO</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="#" #id>
+                </div>
+                <div class="form-group">
+                    <label for="userInput">INGRESE LA FECHA</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="FECHA #" #fecha>
+                </div>
+                <div class="form-group">
+                    <label for="userInput">INGRESE EL RIVAL</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="RIVAL" #rival>
+                </div>
+                <div class="form-group">
+                    <label for="userInput">INGRESE EL RESULTADO</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="RESULTADO" #resultado>
+                </div>
+                <div class="form-group">
+                    <label for="userInput">INGRESE LA FIGURA DEL PARTIDO</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="FIGURA DEL PARTIDO" #figura>
+                </div>
+                <div class="form-group">
+                    <label for="userInput">INGRESE LOS PUNTOS</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="PUNTOS" #puntos>
+                </div>
+            </form>
+            <button (click)="guardarPartido(id.value, fecha.value, rival.value, resultado.value, figura.value, puntos.value)" type="submit" id="submitBtn" class="btn btn-success" >Ingresar</button>
+            <button (click)="editarPartidos(id.value, fecha.value, rival.value, resultado.value, figura.value, puntos.value)" type="submit" id="submitBtn" class="btn btn-dark" >Editar</button>
+            <button (click)="eliminarPartidos(id.value)" type="submit" id="submitBtn" class="btn btn-danger" >Eliminar</button>
+            <br />    
+            <br>
+            <br>    
+        </div>
+    </div>    
+</div>
+

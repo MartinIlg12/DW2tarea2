@@ -1,0 +1,24 @@
+<div>
+  <h1 style="text-align: center; background-color: rgb(253, 253, 253);">Tabla de Posiciones</h1>
+</div>
+<table class="table table-bordered" >
+    <thead>
+      <tr>
+        <th class="table-dark">Posición</th>
+        <th class="table-dark">Equipos</th>
+        <th class="table-dark">Goles A Favor</th>
+        <th class="table-dark">Goles En Contra</th>
+        <th class="table-dark">Gol Diferencia</th>
+        <th class="table-danger">Puntos</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let resulta of dataResultado">
+        <td class="table-warning">{{resulta.posicion}}</td>
+        <td>{{resulta.nombre}}</td>
+        <td>{{resulta.gf}}</td>
+        <td>{{resulta.gc}}</td>
+        <td>{{resulta.gd}}</td>
+        <td>{{resulta.puntos}}</td>
+    </tbody>
+  </table>

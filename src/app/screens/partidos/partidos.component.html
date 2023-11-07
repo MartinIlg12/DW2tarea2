@@ -1,0 +1,28 @@
+<section class="bg-light py-4 my-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="mb-3 text-primary">PARTIDOS JUGADOS</h2>
+            </div>
+
+            <div class="col-md-6 col-lg-4" *ngFor="let item of dataPartido">
+                <div class="card my-3">
+
+                    <img src="{{item.foto}}" class="card-image-top" alt="thumbnail">
+
+                    <div class="card-body">
+                        
+                        <h3 class="card-title"><a href="#" class="text-secondary">{{item.fecha}}</a></h3>
+                        <p class="card-text">ID {{item.id}}</p>
+                        <p class="card-text">RIVAL: {{item.rival}}</p>
+                        <p class="card-text">RESULTADO: {{item.resultado}}</p>
+                        <p class="card-text">FIGURA: {{item.figura}}</p>
+                        <a href="resultados" class="btn btn-primary">{{item.puntos}}</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<app-formulario></app-formulario>

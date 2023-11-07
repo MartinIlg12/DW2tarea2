@@ -1,0 +1,210 @@
+{
+  "productos": [
+    {
+      "id": 101,
+      "foto": "../../../assets/images/ARQUERO.png",
+      "nombre": "Camisa Arquero",
+      "descripcion": "Adquiere ya tu Camisa de Arqueros de Guerreros Fc con la última tecnología en prendas deportivas",
+      "tallas": "XL - L - M - S",
+      "precio": 25
+    },
+    {
+      "id": 102,
+      "foto": "../../../assets/images/CAMISETA.png",
+      "nombre": "Camisa Jugador",
+      "descripcion": "Adquiere ya tu Camisa de Jugador de Guerreros Fc con la última tecnología en prendas deportivas",
+      "tallas": "XL - L - M - S",
+      "precio": 35
+    },
+    {
+      "id": 103,
+      "foto": "../../../assets/images/ENTRENAMIENTO.png",
+      "nombre": "Camisa Entrenamiento",
+      "descripcion": "Adquiere ya tu Camisa de Entrenamiento de Guerreros Fc con la última tecnología en prendas deportivas",
+      "tallas": "XL - L - M - S",
+      "precio": 20
+    },
+    {
+      "id": 104,
+      "foto": "../../../assets/images/PERSONALIZADO.png",
+      "nombre": "Camisa Personalizada",
+      "descripcion": "Adquiere ya tu Camisa Personalizada de Guerreros Fc con la última tecnología en prendas deportivas",
+      "tallas": "XL - L - M - S",
+      "precio": 45
+    },
+    {
+      "id": 105,
+      "foto": "../../../assets/images/COMPLETO.png",
+      "nombre": "Uniforme Completo",
+      "descripcion": "Adquiere ya tu Uniforme Completo de Guerreros Fc con la última tecnología en prendas deportivas",
+      "tallas": "XL - L - M - S",
+      "precio": 80
+    }
+  ],
+  "partidos": [
+    {
+      "id": 201,
+      "foto": "https://elcomercio.pe/resizer/fj5zNnTZ9EiK-M6E4sdUgaQFF_k=/580x330/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/HEQNY6A7YZHMTCBA4IBOEMVFRY.jpg",
+      "fecha": "FECHA #1",
+      "rival": "Sparta",
+      "resultado": "Guerreros Fc 4 - 2 Sparta ",
+      "figura": "Leonardo Tulcan",
+      "puntos": "+3 PUNTOS"
+    },
+    {
+      "id": 202,
+      "foto": "https://elcomercio.pe/resizer/fj5zNnTZ9EiK-M6E4sdUgaQFF_k=/580x330/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/HEQNY6A7YZHMTCBA4IBOEMVFRY.jpg",
+      "fecha": "FECHA #2",
+      "rival": "ORIENTAL",
+      "resultado": "Guerreros Fc 3 - 2 Oriental ",
+      "figura": "Marcos Mckliff",
+      "puntos": "+3 PUNTOS"
+    },
+    {
+      "id": 203,
+      "foto": "https://elcomercio.pe/resizer/fj5zNnTZ9EiK-M6E4sdUgaQFF_k=/580x330/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/HEQNY6A7YZHMTCBA4IBOEMVFRY.jpg",
+      "fecha": "FECHA #3",
+      "rival": "Milan",
+      "resultado": "Guerreros Fc 1 - 0 Milan",
+      "figura": "Eduardo Mckliff",
+      "puntos": "+3 PUNTOS"
+    },
+    {
+      "id": 204,
+      "foto": "https://e00-marca.uecdn.es/assets/multimedia/imagenes/2017/11/13/15106103135820.jpg",
+      "fecha": "FECHA #4",
+      "rival": "Brasil",
+      "resultado": "Guerreros Fc 2 - 3 Brasil ",
+      "figura": "Leonardo Tulcan",
+      "puntos": "+0 PUNTOS"
+    },
+    {
+      "id": 205,
+      "foto": "https://elcomercio.pe/resizer/fj5zNnTZ9EiK-M6E4sdUgaQFF_k=/580x330/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/HEQNY6A7YZHMTCBA4IBOEMVFRY.jpg",
+      "fecha": "FECHA #5",
+      "rival": "Portugal",
+      "resultado": "Guerreros Fc 5 - 1 Portugal ",
+      "figura": "Martin Ilguán",
+      "puntos": "+3 PUNTOS"
+    },
+    {
+      "id": 206,
+      "foto": "https://elcomercio.pe/resizer/fj5zNnTZ9EiK-M6E4sdUgaQFF_k=/580x330/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/HEQNY6A7YZHMTCBA4IBOEMVFRY.jpg",
+      "fecha": "FECHA #6",
+      "rival": "Villareal",
+      "resultado": "Guerreros Fc 2 - 0 Villareal ",
+      "figura": "Franklin Ilguán",
+      "puntos": "+3 PUNTOS"
+    },
+    {
+      "id": 207,
+      "foto": "https://image-service.onefootball.com/transform?w=280&h=210&dpr=2&image=http%3A%2F%2Fsoycalcio.com%2Fwp-content%2Fuploads%2F2023%2F09%2Fnorth-macedonia-v-italy-group-c-uefa-euro-2024-european-qualifiers-1-scaled.jpg",
+      "fecha": "FECHA #7",
+      "rival": "El Corazón",
+      "resultado": "Guerreros Fc 1 - 1 El Corazón ",
+      "figura": "Victor López",
+      "puntos": "+1 PUNTO"
+    },
+    {
+      "id": 208,
+      "foto": "https://elcomercio.pe/resizer/fj5zNnTZ9EiK-M6E4sdUgaQFF_k=/580x330/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/HEQNY6A7YZHMTCBA4IBOEMVFRY.jpg",
+      "fecha": "FECHA #8",
+      "rival": "Palermo",
+      "resultado": "Guerreros Fc 3 - 0 Palermo ",
+      "figura": "Franklin Ilguán",
+      "puntos": "+3 PUNTOS"
+    }
+  ],
+  "resultados": [
+    {
+      "id": 301,
+      "posicion": 1,
+      "nombre": "GUERREROS FC",
+      "gf": 45,
+      "gc": 10,
+      "gd": 35,
+      "puntos": "28 Puntos"
+    },
+    {
+      "id": 302,
+      "posicion": 2,
+      "nombre": "Sparta",
+      "gf": 20,
+      "gc": 10,
+      "gd": 10,
+      "puntos": "25 Puntos"
+    },
+    {
+      "id": 303,
+      "posicion": 3,
+      "nombre": "El Corazón",
+      "gf": 15,
+      "gc": 10,
+      "gd": 5,
+      "puntos": "20 Puntos"
+    },
+    {
+      "id": 304,
+      "posicion": 4,
+      "nombre": "Everton",
+      "gf": 20,
+      "gc": 5,
+      "gd": 15,
+      "puntos": "20 Puntos"
+    },
+    {
+      "id": 305,
+      "posicion": 5,
+      "nombre": "Palermo",
+      "gf": 10,
+      "gc": 10,
+      "gd": 0,
+      "puntos": "19 Puntos"
+    },
+    {
+      "id": 306,
+      "posicion": 6,
+      "nombre": "Portugal",
+      "gf": 10,
+      "gc": 12,
+      "gd": -2,
+      "puntos": "15 Puntos"
+    },
+    {
+      "id": 307,
+      "posicion": 7,
+      "nombre": "Villareal",
+      "gf": 8,
+      "gc": 15,
+      "gd": -7,
+      "puntos": "13 Puntos"
+    },
+    {
+      "id": 308,
+      "posicion": 8,
+      "nombre": "Oriental",
+      "gf": 3,
+      "gc": 10,
+      "gd": -7,
+      "puntos": "11 Puntos"
+    },
+    {
+      "id": 309,
+      "posicion": 9,
+      "nombre": "Brasil",
+      "gf": 10,
+      "gc": 20,
+      "gd": -10,
+      "puntos": "9 Puntos"
+    },
+    {
+      "id": 310,
+      "posicion": 10,
+      "nombre": "Milan",
+      "gf": 15,
+      "gc": 30,
+      "gd": -15,
+      "puntos": "6 Puntos"
+    }
+  ]
+}
